@@ -1,0 +1,9 @@
+{
+  "name": "Kisah Sukses Final AI Hebat",
+  "short_name": "KS AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b67ff",
+  "theme_color": "#0b67ff",
+  "icons": [{"src":"favicon-32.png","sizes":"32x32","type":"image/png"}]
+}

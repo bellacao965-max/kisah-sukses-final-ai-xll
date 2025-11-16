@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kisah Sukses Final AI Hebat</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0b67ff">
+  <link rel="icon" href="favicon-32.png">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="logo.png" alt="logo" class="logo">
+      <div>
+        <h1>Kisah Sukses Final AI Hebat</h1>
+        <p class="tag">Mentor AI pribadi — inspirasi harian & saran sukses</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="left">
+      <div class="card chat-card">
+        <h2>Chat dengan AI</h2>
+        <div id="messages" class="messages"></div>
+        <form id="chatForm" class="chat-form">
+          <input id="prompt" placeholder="Tanya sesuatu..." autocomplete="off" />
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+
+      <div class="card game-card">
+        <h2>Mini Game: Tebak Angka</h2>
+        <p>Komputer memilih angka 1-20. Tebak dan menangkan badge virtual!</p>
+        <div id="gameArea">
+          <input id="guessInput" type="number" min="1" max="20" placeholder="Tebak angka 1-20"/>
+          <button id="guessBtn">Tebak</button>
+          <div id="gameResult"></div>
+          <div id="gameBadge" class="badge hidden">🏆 Mantap! Kamu menang!</div>
+          <div><small>(Double-click input untuk reset game)</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="right">
+      <div class="card media-card">
+        <h2>Video Inspirasi</h2>
+        <div class="video-wrap">
+          <iframe id="ytFrame" width="100%" height="215" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="socials">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="btn">Instagram</a>
+          <a href="https://www.tiktok.com/" target="_blank" rel="noopener" class="btn">TikTok</a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="btn">YouTube</a>
+        </div>
+      </div>
+
+      <div class="card quotes-card">
+        <h2>Quotes dari Orang Hebat</h2>
+        <div id="quotes">
+          <blockquote class="quote">"Sukses adalah kemampuan untuk lewat dari kegagalan tanpa kehilangan antusiasme." — Winston Churchill</blockquote>
+          <blockquote class="quote">"The only limit to our realization of tomorrow is our doubts of today." — Franklin D. Roosevelt</blockquote>
+          <blockquote class="quote">"Kesempatan seringkali menyamar sebagai kerja keras." — Thomas Edison</blockquote>
+          <blockquote class="quote">"Jadilah perubahan yang ingin kamu lihat di dunia." — Mahatma Gandhi</blockquote>
+          <blockquote class="quote">"Kerja keras mengalahkan bakat ketika bakat tidak bekerja keras." — Tim Notke</blockquote>
+        </div>
+        <button id="nextQuote" class="small">Next Quote</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Kisah Sukses Final AI Hebat</p>
+  </footer>
+
+  <script src="ai.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

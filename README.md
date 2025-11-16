@@ -1,2 +1,3 @@
-# kisah-sukses-final-ai-xll
-Aplikasi Kisah Sukses Pro — inspirasi sukses harian dengan AI mentor
+# Kisah Sukses Pro - full project
+
+This project contains server.js and public/ files.
